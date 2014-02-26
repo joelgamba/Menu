@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface MenuViewController : UICollectionViewController
+@interface MenuViewController : UIViewController
 
 @end

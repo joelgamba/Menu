@@ -46,6 +46,10 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view.
+    UIImageView *backgroundImage = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"ConDefault.png"]];
+    [self.view addSubview:backgroundImage];
+    [self.view sendSubviewToBack:backgroundImage];
+
 }
 
 - (void)didReceiveMemoryWarning

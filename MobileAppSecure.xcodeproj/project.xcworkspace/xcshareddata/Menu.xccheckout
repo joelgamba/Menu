@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>01EBF330-9DA1-4145-9F8C-2E3500374506</string>
+	<key>IDESourceControlProjectName</key>
+	<string>Menu</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>83ED972E-E950-49BD-A107-7F1A0335AE71</key>
+		<string>https://github.com/lamito/Menu.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>Menu.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>14C04368-25A7-4FAD-8EAE-D25BDE71C7D0</key>
+		<string>../../MasterDetailTest</string>
+		<key>83ED972E-E950-49BD-A107-7F1A0335AE71</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/lamito/Menu.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>83ED972E-E950-49BD-A107-7F1A0335AE71</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>14C04368-25A7-4FAD-8EAE-D25BDE71C7D0</string>
+			<key>IDESourceControlWCCName</key>
+			<string>MasterDetailTest</string>
+		</dict>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>83ED972E-E950-49BD-A107-7F1A0335AE71</string>
+			<key>IDESourceControlWCCName</key>
+			<string>Menu</string>
+		</dict>
+	</array>
+</dict>
+</plist>

@@ -51,7 +51,7 @@
     self.player1Score.transform = CGAffineTransformMakeRotation(M_PI);
     self.player3Score.transform = CGAffineTransformMakeRotation(M_PI);
     
-    self.view.backgroundColor = [UIColor colorWithPatternImage:[UIImage imageNamed:@"reactor_bg.png"]];
+    self.view.backgroundColor = [UIColor colorWithPatternImage:[UIImage imageNamed:@"Default.png"]];
     
     self.timer = [NSTimer scheduledTimerWithTimeInterval:0.5f target:self selector:@selector(updateCounter:) userInfo:nil repeats:YES];
 }
@@ -184,6 +184,9 @@
     }
     [self.timer1 setText:[NSString stringWithFormat:@"%d", self.timerCount]];
     [self.timer2 setText:[NSString stringWithFormat:@"%d", self.timerCount]];
+}
+- (IBAction)closeApp:(id)sender {
+    [self dismissViewControllerAnimated:YES completion:nil];
 }
 
 @end
