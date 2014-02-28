@@ -9,6 +9,8 @@
 #import "MenuViewController.h"
 
 @interface MenuViewController ()
+- (IBAction)exitButton:(id)sender;
+
 
 @end
 
@@ -32,4 +34,7 @@
 
 
 
+- (IBAction)exitButton:(id)sender {
+    exit(0);
+}
 @end

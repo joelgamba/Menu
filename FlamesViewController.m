@@ -37,9 +37,24 @@
     NSLog(@"sumOfName1: %d", sumOfName1);
     int sumOfName2 = [self getSumOfName:name2];
     NSLog(@"sumOfName2: %d", sumOfName2);
-    [_result setText:[_flamesArray objectAtIndex:(sumOfName1 + sumOfName2) % 6]];
-    //
-//    [_resultImage setImage:[_flamesImageArray objectAtIndex:((sumOfName1 + sumOfName2) % 6)]];
+    
+    int index = (sumOfName1 + sumOfName2) % 6;
+    [_result setText:[_flamesArray objectAtIndex:index]];
+
+    if(index == 0){
+        [self.resultImage setImage:[UIImage imageNamed: @"soulmate.png"]];
+    }    if(index == 1){
+        [self.resultImage setImage:[UIImage imageNamed: @"friends.png"]];
+    }    if(index == 2){
+        [self.resultImage setImage:[UIImage imageNamed: @"lovers.png"]];
+    }    if(index == 3){
+        [self.resultImage setImage:[UIImage imageNamed: @"anger.png"]];
+    }    if(index == 4){
+        [self.resultImage setImage:[UIImage imageNamed: @"marriage.png"]];
+    }    if(index == 5){
+        [self.resultImage setImage:[UIImage imageNamed: @"enemies.png"]];
+    }
+    
 }
 
 - (int)getSumOfName:(NSString *)name {
@@ -60,13 +75,7 @@
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
     
-    _flamesImageArray = [[NSArray alloc] initWithObjects:
-                         [UIImage imageNamed:@"soulmate.png"],
-                         [UIImage imageNamed:@"friends.png"],
-                         [UIImage imageNamed:@"lover.png"],
-                         [UIImage imageNamed:@"anger.png"],
-                         [UIImage imageNamed:@"marriage.png"],
-                         [UIImage imageNamed:@"enemies.png"], nil];
+    
 }
 
 - (void)didReceiveMemoryWarning
